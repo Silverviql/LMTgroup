@@ -1,0 +1,132 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Adventrans</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+
+<script>
+	$(function(){
+/* выбор города */
+/* $('.Content').click(function(){
+$(".cities_list").slideToggle('fast');
+});*/ 
+$('ul.cities_list li').click(function(){
+var tx = $(this).html();
+var tv = $(this).attr('alt');
+/*$(".cities_list").slideUp('fast');*/ 
+$(".Content span").html(tx);
+$(".delivery_text").html(tv);
+});
+})
+</script>
+
+</head>
+<body>
+
+<div id="page">
+
+    <div id="header">
+    <a class="gg-logo" href="//LMTgroup/"><img alt="LMTgroup.ru - интернет магазин игр на PC"     class="small_logo" src="../../css/logo.png"> LMTgroup </a>
+
+    </div>
+      <div id="tabs">
+        <h3>
+        <li><a href="../../info.html"><span>О нас</span></a></li>
+        <li><a href="../../news.html"><span>Новости</span></a></li>
+        <li><a href="../../faq.html"><span>Как купить?</span></a></li>
+        <li><a href="../../send.html"><span>Доставка</span></a></li>
+        <li><a href="../../grant.html"><span>Гарантии</span></a></li>
+        <li><a href="../../cont.html"><span>Контакты</span></a></li>
+        <li><a href="../../product_sh.php"><span>Товары</span></a></li>
+        <li><a href="advertrans.html"><span>Древо</span></a></li>
+        </h3>
+    </div>
+    <div id="menu">
+    <h4>
+    <p><a href="./../action.html">Экшен</a></p>
+    <p><a href="./../rpg.html">RPG</a></p>
+    <p><a href="./../strat.html">Стратегии</a></p>
+    </h4>
+</div>
+    <div id="content" style="margin: 0px;">  
+
+<div onclick="tree_toggle(arguments[0])">
+<ul class="Container">
+<div>Root</div>
+  <li class="Node IsRoot ExpandClosed">
+    <div class="Expand"></div>
+    <input type="checkbox"/>
+
+    <div class="Content">
+    <ul class="cities_list">
+     <li alt="Вжух вжух и в продакшен.">Item 1</li>
+	</ul>
+     </div>
+
+    <ul class="Container">
+      <li class="Node ExpandClosed">
+        <div class="Expand"></div>
+        <input type="checkbox"/>
+        <div class="Content">Item 1.1 </div>
+        <ul class="Container">
+          <li class="Node ExpandLeaf IsLast">
+            <div class="Expand"></div>
+            <input type="checkbox"/>
+            <div class="Content">Item 1.1.2</div>
+          </li>
+        </ul>
+      </li>
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <input type="checkbox"/>
+        <div class="Content">Item 1.2</div>
+      </li>
+    </ul>
+  </li>
+  <li class="Node IsRoot ExpandClosed">
+    <div class="Expand"></div>
+    <input type="checkbox"/>
+
+    <div class="Content">
+    <ul class="cities_list">
+     <li alt="Вжух не вжух.">Item 2<br/>title long yeah</li>
+     </ul>
+     </div>
+
+    <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <input type="checkbox"/>
+        <div class="Content">Item 2.1</div>
+      </li>
+    </ul>
+  </li>
+  <li class="Node ExpandClosed IsRoot IsLast">
+    <div class="Expand"></div>
+    <input type="checkbox"/>
+
+     <div class="Content">
+    <ul class="cities_list">
+     <li alt="Но это не точно.">Item 3</li>
+	</ul>
+     </div>
+
+    <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <input type="checkbox"/>
+        <div class="Content">Item 3.1</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div class="delivery_text">Текст бла бла бал</div>
+
+</div>
+</body>
+</html>

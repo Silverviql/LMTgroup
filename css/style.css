@@ -1,0 +1,197 @@
+/* таблица стилей */
+/* задаем размещение блоков */
+
+#page { 
+	width:100%;
+ 	height:100%;
+	font-family:Arial, Helvetica,sans-serif; 
+	margin: 0 auto; 
+	float:center;
+}
+
+#page_text {
+ 	 width:100%; 
+	height:100%; 
+	 font-family:Arial, Helvetica,sans-serif;
+	 margin: 0 auto;
+	float:center;
+}
+
+#page_text2 {
+ 	 width:100%; 
+	height:100%; 
+	font-family:Arial, Helvetica,sans-serif; 
+	margin: 0 auto;
+	float:center;
+}
+ 
+body {
+background: url('background-2.jpg') center 0px / cover no-repeat fixed rgb(255, 255, 255);
+/* background:url('kitten.jpg') #73A6FC fixed no-repeat center top ; 
+ не скролиться*/
+
+}  
+
+.gg-logo {
+    font-size: 18pt;
+    letter-spacing: .05em;
+    color: #bbb;
+    transition: color .1s;
+}
+
+#header {
+ 	 background: linear-gradient(to bottom,#4c4c4c 0,#000 100%);
+	//background: #F1F1F1;
+   	 margin-bottom: 0;
+   	 width: 70%;
+   	 height: 10%;
+   	 position: fixed;
+    	top: 0;
+    	left: 15%;
+    	align-items: center;
+   	 justify-content: center;
+   	 overflow: auto;
+}
+
+#tabs {
+   	 margin-bottom: 0;
+   	 width: 70%;
+   	 height: 10%;
+   	 position: fixed;
+   	 top: 10%;
+   	 left: 15%;
+   	 align-items: center;
+   	 justify-content: center;
+   	 overflow: auto;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 0px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("left.png") no-repeat left top;
+	margin:0;
+	padding:0 0 0 6px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("right.png") no-repeat right top;
+	padding:6px 15px 4px 6px;
+	margin-right:2px;
+	color:#FFF;
+	}
+
+#tabs a span {
+	float:none;
+}
+
+#tabs a:hover span {
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+	
+#menu {	
+    background: url(fon.menu.png);
+	width: 9.5%;
+	height: 100%;
+    	float: left;
+    	position: fixed;
+    	top: 18%;
+    	left: 15%;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    font-family: COMIC SANS MS, Times, serif;
+    display: block;
+    padding-left: 12px;
+    line-height: 30px;
+ }
+
+a {
+    text-decoration: none;
+    color: #27a3c2;
+    border: 0;
+    transition: color .2s ease-in-out;
+}
+
+
+
+#menusend {
+	background:#E8E8E8;
+	width:140px; 
+	height:800px;
+	float:left;
+	font-family:COMIC SANS MS, Times, serif; 
+}
+
+#content { 
+	width: 60%;
+    	height: 100%;
+   	 float: right;
+   	 background: #F1F1F1;
+   	 position: fixed;
+    	top: 18%;
+    	left: 25%;
+    	align-items: center;
+    	justify-content: center;
+    	overflow: auto;
+    	font-family: COMIC SANS MS, Times, serif;
+}
+
+#send_content { 
+	background:#F1F1F1;
+	 width:640px;
+	 height:800px; 
+	float:right; 
+	font-family:Georgia, Times, serif; 
+}
+
+
+#kv1, #kv2, #kv3{
+    width:80px;
+    height:100px;
+    float:left;
+    background:red;
+    margin:5px;
+    color:white;
+    display:none;
+}
+#kv4, #kv5{
+    width:80px;
+    height:100px;
+    float:left;
+    background:blue;
+    margin:5px;
+    color:white;
+    display:none;
+}
+
+
+/* задаем параметры для заголовков */
+
+/*h1 { text-align:left; font-size:30px; font-family:Aharoni;}*/
+h3 { font-weight:normal; font-size:14px; margin: 5; }
+h4 { font-weight:normal; font-size:14px; margin: 5; }
+
+
+
+
