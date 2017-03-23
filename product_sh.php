@@ -40,7 +40,7 @@
 					<div style="text-align: center; margin-left:0px; margin-right:50px; background: #ffffff">
 						<?php 
 							// определяем начальные данные
-							$db_host = 'localhost';
+							$db_host = 'azure@localhost';
 							$db_name = 'gamestore_ru';
 							$db_username = 'root';
 							$db_password = '';
