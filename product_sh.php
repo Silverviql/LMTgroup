@@ -42,8 +42,8 @@
 							// определяем начальные данные
 							$db_host = '127.0.0.1:49539';
 							$db_name = 'gamestore_ru';
-							$db_username = 'dead';
-							$db_password = 'dead';
+							$db_username = 'root';
+							$db_password = 'MyNewPass';
 							$db_table_to_show = 'reg_orders';
 
 							// соединяемся с сервером базы данных
