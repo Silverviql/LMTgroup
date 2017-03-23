@@ -42,7 +42,7 @@
 							// определяем начальные данные
 							$db_host = '127.0.0.1:49539';
 							$db_name = 'gamestore_ru';
-							$db_username = 'root';
+							$db_username = 'silverfire';
 							$db_password = '';
 							$db_table_to_show = 'reg_orders';
 
