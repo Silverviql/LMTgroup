@@ -42,8 +42,8 @@
 							// определяем начальные данные
 							$db_host = 'azure@localhost';
 							$db_name = 'gamestore_ru';
-							$db_username = 'root';
-							$db_password = '';
+							$db_username = 'silverfire';
+							$db_password = 'dRryzjdliBRbM7Fe';
 							$db_table_to_show = 'reg_orders';
 
 							// соединяемся с сервером базы данных
