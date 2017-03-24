@@ -40,10 +40,10 @@
 					<div style="text-align: center; margin-left:0px; margin-right:50px; background: #ffffff">
 						<?php 
 							// определяем начальные данные
-							$db_host = '127.0.0.1:49539';
-							$db_name = 'gamestore_ru';
-							$db_username = 'azure';
-							$db_password = 'password';
+							$db_host = 'ap-cdbr-azure-east-a.cloudapp.net:3306';
+							$db_name = 'lmtbas';
+							$db_username = 'b7706a8c860c3f';
+							$db_password = '9ee7f3a8';
 							$db_table_to_show = 'reg_orders';
 
 							// соединяемся с сервером базы данных
